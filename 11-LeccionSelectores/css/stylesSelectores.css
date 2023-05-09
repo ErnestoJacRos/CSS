@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: #2ECC71;
+}
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    color: #1B4F72;
+    padding: 15px;
+    border: 3px solid #7B241C;
+
+}
+/*se palicará a los parrafon que estén dentro de un div y q
+que ese div tenga esas dos clases */
+div.contenedor.descendiente p{
+    background-color: #F7DC6F;
+}
+div.contenedor.hijo > p{/*se aplicarán a hijos directos del div
+    que contengan esas dos clase */
+    background-color: #8E44AD;
+}
+div.contenedor.adyaccente + p{/*se aplicará al elemento seguiente 
+    del div que contenga las dos clases*/
+background-color: #1C3483;
+}
+/*se aplicará a todos los elementos que sigan despues de que enceuntre el
+div con las dos clase específicados*/
+div.contenedor.hermano ~ p{
+    background-color: #00FF00;
+}

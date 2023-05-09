@@ -1,0 +1,32 @@
+h1{
+    color: #ef476f;
+    
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    /*text-decoration: overline underline;*/
+    border-top: #ef476f 2px solid;
+    border-bottom: #ef476f 2px solid;
+    border-radius: 5px;
+    width: 600px;
+    margin: 10px auto;
+}
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+.justificar{
+    text-align: justify;
+    /*direction: rtl; para dar */
+    text-indent: 30px;
+    /*line-height: 3;*/
+    white-space: normal;
+    text-shadow: 1px 1px 2px #ced4da;
+    
+}

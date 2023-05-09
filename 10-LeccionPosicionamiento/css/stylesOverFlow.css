@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.contenedor{
+    border: 3px dashed greenyellow;
+    width: 30%;
+    height: 100px;
+    margin: auto;
+    /*por default: el overflow:visible;
+    quiere decir que si desborda el contenido de un elemneto esto se mostrara desbordado
+    */
+    /*overflow: hidden; para ponerlo oculto*/
+   /* overflow: scroll; aparecn barras para dar scroll*/
+   overflow: auto;/*incluye las barras para dar scroll siempre y cuandop sea necesario */
+
+}
+/*y esta propiedad solo servirá si ponemos un height, el contenedor se adaptará 
+al texto */

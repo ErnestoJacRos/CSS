@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: #F1C40F;
+    text-shadow: 2px 2px 2px #F1C40F;
+}
+div.contenedor{
+    display: flex;
+    background-color: blueviolet;
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: row; valor por defecto*/
+    flex-direction: row;/*para poner a la izquierda */
+    /*por defecto si usamos flax y hacemos más pequeña la pag no se no permanecerán
+    dentro del dic donde lo pusimos
+    par eso debemos usar flex-wrap*/
+    /*flex-wrap: wrap;se van ir ajustando a la página*/
+    flex-flow: row wrap; /*dos propiedades juntas  */
+    justify-content: center;/*para acomodar a la izq dere y centro
+    centro = center, derecha = flex-end, izquierdad = flex-start
+    espacio entre ellos = space-between, para agregar espacio a su alrededor usamos
+    justify-content: space-around;
+    si queremos el esoacio igual entre los elementos usamos justify-contecn:space-evenly;*/
+    height: 300px;/*en automático los párrafos dentro, se ajustará al tamño del contenedor */
+    align-items: center;/*flex-start para que mantegan su tamaño y no el del div padre, si queremos
+    que se carguen al centro usamos "center". si usamos "baseline" sirve si los lementos
+     dentro del div son de distinto tamaño se aliniarán en la parte superior si usamos center se 
+     alinearán conforme su centro 
+     */
+     align-content:center;/*es parecida a aling-items, con los mismo valores pero estos
+     se aplicarán de forma vertical */
+
+}
+div.contenedor > p{
+    background-color: #4895ef;
+    color: #f1faee;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+    
+}

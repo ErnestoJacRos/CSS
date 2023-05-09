@@ -1,0 +1,33 @@
+/*{
+    background-color: blue;7
+    el asteríxco es selector universal
+}*/
+#titulo{
+    /*con "!important" le decimos que no importa si otro
+    estilo esta defenido y qun que sea de mayor jerarquia  este será mas importante*/
+    color: crimson !important;
+    text-align: center;
+    font-size: 100px;
+}
+.centrar{
+    text-align: center;
+}
+.texto_grande{
+    font-size: 20px;
+}
+/*agrupar tags  a todas estas tags se palicaran todas */
+
+section, article, aside{
+text-align: center;
+}
+/* aqui solo s ele va aplicar a la aside que esté dentro las otras tags*/
+section article aside{
+    color: blue;
+}
+
+/*sub-clases solo se palicará a las tags de párrafo y con esa clase 
+no importa si le pones esa clase a otra tag no se va aplicar */
+
+p.centrarlo{ 
+    text-align: center;
+}

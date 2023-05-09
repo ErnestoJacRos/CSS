@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox en css</title>
+    <link rel="stylesheet" href="css/stylesFlexbox.css">
+</head>
+<body>
+    <h1>Flexbox en Css</h1>
+    <div class="contenedor">
+        <p  style="order:6;">text 1</p>
+        <p  style="order:5;">text 2</p>
+        <p  style="order:4;">text 3</p>
+        <p  style="order:3;">text 4</p><!--/*usamos : "order" valor por defecto es 0 /-->
+        <p  style="order:2; flex-grow: 2;">text 5</p><!--usamos flex-grow para cambiar el tamaño-->
+        <p style="order:1; flex-grow: 3;">text 6</p>
+    </div>
+</body>
+</html>

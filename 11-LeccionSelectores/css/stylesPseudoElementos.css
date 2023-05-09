@@ -1,0 +1,36 @@
+h1, h2{
+    text-align: center;
+    color: #00FF00;
+}
+h2{
+    color: crimson;
+}
+
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #55FFFF;
+    padding: 15px;
+    color: black;
+    text-align: center;
+}
+div.contenedor p::selection{/*cambia cuando se seleciona el texto*/
+    color: red;
+    background-color: yellow;
+}
+/*va a cambiar la primera linea del párrafo y es dinámico */
+div.contenedor p::first-line{
+    color: darkgreen;
+    font-variant: small-caps;
+}
+div.contenedor p::first-letter{
+    color: red;
+    font-size: 1.5em;
+}
+div.contenedor p::before{
+    content: "- ";
+}
+div.contenedor p::after{
+    content: " -";
+}

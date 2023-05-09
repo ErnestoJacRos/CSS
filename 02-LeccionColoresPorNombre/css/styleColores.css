@@ -1,0 +1,39 @@
+header h1{
+    text-align: center;
+    
+}
+.rojo{
+    background-color: crimson;
+    
+}
+.rosa{
+    background-color: hotpink;
+   
+}
+.violeta{
+    background-color: blueviolet;
+}
+.verde{
+    background-color: lime;
+}
+.amarillo{
+    background-color: gold;
+}
+.azul{
+    background-color: blue;
+}
+
+.rojo, .rosa, .amarillo, .violeta , .azul, .verde{
+    color: white;
+}
+
+
+.smallText{
+    font-size: 20px;
+}
+.mediumText{
+    font-size: 50px;
+}
+.bigText{
+    font-size: 100px;
+}

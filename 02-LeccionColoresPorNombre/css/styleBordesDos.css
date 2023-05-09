@@ -1,0 +1,45 @@
+body{
+  background: chartreuse;
+}
+header h1{
+    text-align: center;
+}
+.punteado{
+    border-style: dotted;
+    border-width:  10px 20px 25px 5px;
+}
+.descontinuo{
+    border-style: dashed;
+    border-width: thin;
+    border-color: red blue turquoise aquamarine;
+}
+.solido{
+    border: solid;
+    border-width: medium;
+}
+.doble{
+    border: double;
+    border-width: thick;
+}
+.surco{
+    border:10px groove;
+}
+.cresta{
+    border: ridge 10px;
+    border-width: thick;
+}
+.recuadro{
+    border: inset 10px;
+}
+.outset{
+    border: 10px outset;
+}
+.sin_borde{
+    border: none;
+}
+.oculto{
+    border: hidden;
+}
+.mixto{
+    border-style: double solid dashed double;
+}

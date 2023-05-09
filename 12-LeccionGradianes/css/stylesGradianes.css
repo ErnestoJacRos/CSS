@@ -1,0 +1,25 @@
+html{
+    height: auto;
+    min-height: 100%;
+}
+body{
+   /* background: linear-gradient(red,  blue);*/
+  /*/ background: linear-gradient(to right, red, blue);*/
+  /*background: linear-gradient(darkgreen, green, red); */
+  /*background:linear-gradient(to bottom  right, darkgreen, green, red);*/
+  /*background:linear-gradient(145deg, darkgreen, green, red);*/
+  background: radial-gradient(circle, white, green,  darkblue);
+  color: whitesmoke;
+
+}
+h1{
+    text-align: center;
+}
+div.contenedor{
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid burlywood;
+    text-align: center;
+    padding: 15px;
+}

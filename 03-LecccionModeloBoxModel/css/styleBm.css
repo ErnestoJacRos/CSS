@@ -1,0 +1,32 @@
+header h1{
+    text-align: center;
+    color: crimson;
+    font-size: 4em ;
+    margin: auto;
+}
+section div{
+    padding: 10px; 
+    border: 1px solid #454545;
+    margin-left: 100px; /*margin auto sirve para centrar objetos */
+    background: #b3b0b0;
+    max-width: 300px; /*si lo ponemos como mx-width si la pantalla se va hacienod mas 
+    pequeña se ira ajutando al tamaño de la pantalla tambuen puede ajustrase en porcentaje*/
+
+    /*también podemos usar max-height*/
+
+    /*outline: 10px solid rgb(166, 207, 255);linea entre el borde y el margen*/
+    /*outline-offset: 10px;espacio entre el borde y el outline*/
+    box-sizing: border-box;/*si no queremos paásarnos del width que le hemos 
+    dado en este caso d e300 usamos box-sizing con propiedad de border-box*
+    no no cuenta marin ni outline ni outline-offset*/
+}
+p.interno{
+ margin-left: inherit; /*lo usamos para heredar una caracteristica del padre
+ en este cado el div donde et´s el párrafo*/
+}
+
+
+/*los bordes de arirba y de abajo se colapsan y no se suman 
+si tenemos dos cajas y una con un magon de 30 y otro abajo de 20
+el margin que exite entre estos 2 no serpa de 50px sino de 30 porel el más grande 
+es el que va a predominar así que el magen entre los dos objetos será de 30px*/

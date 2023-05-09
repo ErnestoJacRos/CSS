@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+div  .caja{
+    color: green;
+    font-size: 3em;
+}
+.icon_google{
+    color: aqua;
+    font-size: 3em;
+    vertical-align: bottom;
+   
+}

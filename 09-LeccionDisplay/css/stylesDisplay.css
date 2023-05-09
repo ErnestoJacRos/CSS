@@ -1,0 +1,27 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    display: block;
+}
+h1{
+    display: none;/*se oculta el título y no ocupa el espacio de lo que se oculto*/
+}
+p{
+    visibility: visible;/*se oculta, pero, sigue ocupando el espacio en la página*/
+}
+span{
+    display: inline;
+    border: 1px solid blue;
+    padding: 15px;
+    color: black;
+    margin: 15px ;
+}
+a{
+    display: block;
+}
+li{
+    text-decoration: none;
+    display: inline;
+}
